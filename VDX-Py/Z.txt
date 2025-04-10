@@ -1,9 +1,11 @@
 09-April-2025
 
 09 Intro, Oprators
-10 Formated method, if, else, Looping, Time Module, random Module, Askey Value
+10 Formated method, if, else, Looping, datetime Module, random Module, Askey Value
 11
 12 
+
+
 
 oral- code explain
 2 code compl

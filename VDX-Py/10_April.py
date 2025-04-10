@@ -1,3 +1,27 @@
+""" DateTime Module. """
+
+import datetime as dt
+
+Today_date = dt.date.today() #prnts todays time
+# print(Today_date)
+# print(f"year: {Today_date.year}")  ##prnts todays Year only
+# print(f"Month: {Today_date.month}")  ##prnts todays Month only
+# print(f"day: {Today_date.day}")  # #prnts todays Day only
+# Nw = dt.datetime.now()  #You get current date and time
+# print(Nw)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # import time
 # currnt_date = time.time()
 # print(f"current time: {time.ctime(currnt_date)}")
@@ -10,7 +34,18 @@
 # print("Today is ", today,type(today))
 
 
-# #Q
+"""Q.... Write a program to calculate car park charges.
+# Up to 2 hours costs £3.50, up to 4 hours £5.00, up to 12 hours £10.00. 
+# The driver enters the number of hours they require and the machine
+# prints the current time, expiry time and charge. For example:"""
+# Time now:
+# Wed Mar 8 15:47:46 2017
+# Expires:
+# Thu Mar 9 03:47:46 2017
+# Charge 10.00
+# Tip: Use the Python library function time by writing import time at the top of the program. The time in seconds since January 1st 1970 is given by
+
+
 import time
 # # Hrs = float(input("Enter The Hrs you Reqired Parking: "))
 # if Hrs <= 2:
@@ -32,25 +67,33 @@ import time
 # # charge = 
 # print("\nCharge is {:.2f}".format(charge))
 
+
+"""Q.. Age Ques"""
+
 # import datetime
-# Age = int(input("Enter your age: "))
+# Birth_Year = int(input("Enter Your Birth_Year: "))
 
-# C = datetime.datetime.now()
-# Now_Age = datetime.datetime(C.year)
-# print(Now_Age)
-# print("Age is: ", Now_Age - Age)
-
+# Currnt_Year = datetime.datetime.now().year
+# Age = Currnt_Year-Birth_Year
+# print(f"Your Current age is {Age}")
 
 
-import random
-Dice_1 = random.randint(1,6)
-A = Dice_1
-print("You rolled Dice 1 is", Dice_1)
-Dice_2 = random.randint(1,6)
-A = Dice_1
-print("You rolled Dice 2 is", Dice_2)
 
-if (Dice_1 != Dice_2):
-    print(f"Your Score is {Dice_1+Dice_2} ")
-else:
-    print(f"You got a pair {Dice_1*Dice_1}")
+"""Q... Write a program to simulate the throw of two dice (each between 1 and 6).
+Print the numbers representing the two throws.If the numbers on the two dice are not equal,
+the player's score is the sum of the numbers thrown. Print the score.
+If the numbers on the two dice are equal, the player scores twice the
+sum of the number thrown. Print "You threw a double", and the score."""
+
+# import random
+# Dice_1 = random.randint(1,6)
+# A = Dice_1
+# print("You rolled Dice 1 is", Dice_1)
+# Dice_2 = random.randint(1,6)
+# A = Dice_1
+# print("You rolled Dice 2 is", Dice_2)
+
+# if (Dice_1 != Dice_2):
+#     print(f"Your Score is {Dice_1+Dice_2} ")
+# else:
+#     print(f"You got a pair {Dice_1*Dice_1}")
