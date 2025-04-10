@@ -58,6 +58,46 @@ L3 = [10,20,30,40]
 # C= L2.remove(1) #You Hve to enter the specicfic "Num",Not a Index Value.
 # D = L2.clear() #remove the all elemtns form the list
 # E = L2.count(1) #counts the how many times, the 1 is appper, but print the E to knows the count of 1
+# print(L2)
 
-print(L2)
 
+#.Q.........
+
+# 1. Find the sum of all elements in a list
+
+L4 = [1,2,3,4,5]
+# print(sum(L4))
+
+# 2. find the maximum and minimum elements in a list
+
+L5 = [1,2,3,4,5,10]
+# print(f"The maxi num of the List is {max(L5)}")
+# print(f"The Mini num of the List is {min(L5)}")
+
+# 3. count how many times a specific element appear in a list
+L6 = [1,2,3,4,5,10,1,2,3,1,1,1,1]
+# print(L6.count(1))
+
+# 4. print all the even in the list
+
+L7= [1,2,3,4,5,10,12,14,18,200]
+# print([i for i in L7 if i%2==0])
+
+# 5. sort a list in ascending and decsing order without using a sort()
+
+L8= [10000,2000,2,3,4,5,10,12,14,18,200]
+for i in L8:
+    print(i)
+print(L8)
+
+
+
+
+
+# 6. remove all duplicates from a list
+
+
+# 7. reverse a list without using reverse() ?
+# 8. Find the second largest number in a list?
+# 9. split a list into two halves ?
+# 10. Find all paris in a list that sum to a give number

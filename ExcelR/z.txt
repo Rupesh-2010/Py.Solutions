@@ -8,7 +8,7 @@ APRIL
 7 bitwise-right, Left oprs
 8 Pre/Non DT- List
 9 cancel
-10 
+10 cancel
 11 
 12 
 13  
