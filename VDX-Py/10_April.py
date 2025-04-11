@@ -1,4 +1,4 @@
-""" DateTime Module. """
+"""-----------------------------------DateTime Module.------------------------------------------"""
 
 # import datetime as dt
 
@@ -93,7 +93,8 @@ import time
 # print(f"Your Current age is {Age}")
 
 
-# Random Module
+# _____________________________Random Module__________________________________
+
 """Q... Write a program to simulate the throw of two dice (each between 1 and 6).
 Print the numbers representing the two throws.If the numbers on the two dice are not equal,
 the player's score is the sum of the numbers thrown. Print the score.
@@ -114,4 +115,47 @@ sum of the number thrown. Print "You threw a double", and the score."""
 #     print(f"You got a pair {Dice_1*Dice_1}")
 
 """_______________________________________________________________"""
+
+"""Random Module example.. 
+Random()
+randint()
+choice()
+randrange() """
+
+"""it used to print some random number in programm"""
+
+import random as rd
+
+# print(rd.random()) #Returns a random float between 0 and 1.
+
+# print(rd.randint(1,12))  #Returns a random integer between a and b (inclusive).
+
+L1= ["Rupesh", "R", "U", "P", "Desai", "D", "P"]
+# print(L1)
+# print(rd.choice(L1))  #Returns a random element from the non-empty sequence seq.
+
+# print(rd.randrange(1,10, 5))
+
+"""___________"""
+
+# print(rd.randint(10, 20))
+
+# A = rd.sample(["Rupesh", "R", "U", "P", "Desai", "D", "P"],2)
+# print(A)
+
+B = rd.choices(["Rupesh", "R", "U", "P", "Desai",],k=2)
+# print(B)
+
+
+# _____________________________ASCII Value__________________________________
+
+
+# A =input("Enter Char: ")
+# print(ord(A))
+
+# AS = int(input("Enter: ")
+
+# B =chr(AS)
+# print(B)
+
 

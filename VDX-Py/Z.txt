@@ -1,8 +1,8 @@
 09-April-2025
 
 09 Intro, Oprators
-10 Formated method, if, else, Looping, datetime Module, random Module, Askey Value
-11
+10 Formated method,  datetime Module, random Module, ASCII Value
+11 if, else, Looping, ASCII Value
 12 
 
 
