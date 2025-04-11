@@ -1,8 +1,8 @@
 """ DateTime Module. """
 
-import datetime as dt
+# import datetime as dt
 
-Today_date = dt.date.today() #prnts todays time
+# Today_date = dt.date.today() #prints todays time
 # print(Today_date)
 # print(f"year: {Today_date.year}")  ##prnts todays Year only
 # print(f"Month: {Today_date.month}")  ##prnts todays Month only
@@ -10,17 +10,32 @@ Today_date = dt.date.today() #prnts todays time
 # Nw = dt.datetime.now()  #You get current date and time
 # print(Nw)
 
+"""-----------------------------------------------------------------------------"""
 
+"""Q. Get today’s date using the datetime module. """
 
+import datetime as dt
+# Today = dt.date.today()
+# print(Today)
 
+"""Q. Print the current year, month, and day separately."""
 
+# Today= dt.date.today()
 
+# print(f"Current Year is: {Today.year}")
+# print(f"Current Month is: {Today.month}")
+# print(f"Current day is: {Today.day}")
 
+"""Add 7 days to today's date and print the new date."""
 
+# Today = dt.date.today()
+# A = Today + dt.timedelta(days=7)
+# print(A)
 
-
-
-
+"""Subtract 3 days from today and print that date."""
+# Today = dt.date.today()
+# B = Today - dt.timedelta(days= -3)
+# print(B)
 
 # import time
 # currnt_date = time.time()
@@ -78,7 +93,7 @@ import time
 # print(f"Your Current age is {Age}")
 
 
-
+# Random Module
 """Q... Write a program to simulate the throw of two dice (each between 1 and 6).
 Print the numbers representing the two throws.If the numbers on the two dice are not equal,
 the player's score is the sum of the numbers thrown. Print the score.
@@ -97,3 +112,6 @@ sum of the number thrown. Print "You threw a double", and the score."""
 #     print(f"Your Score is {Dice_1+Dice_2} ")
 # else:
 #     print(f"You got a pair {Dice_1*Dice_1}")
+
+"""_______________________________________________________________"""
+
