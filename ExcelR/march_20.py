@@ -36,7 +36,7 @@ S2 = {1,2,3,4,5}
 """Dict Identify by {}
     Dict is a set of KeyL Value pair.
     is is Unorded, (B.coz of No index value asosciated with it.)
-    Key is Unique and Value Can be repeated."""
+    Key is Unique and Value Can be repeated. """
     
 A = {
     "Rupesh" : "Desai",

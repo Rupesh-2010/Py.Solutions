@@ -3,7 +3,10 @@
 09 Intro, Oprators
 10 Formated method,  datetime Module, random Module, ASCII Value
 11 if, else, Looping, ASCII Value
-12 
+14 Patterns,  DS-> List
+15 
+16 
+17
 
 
 

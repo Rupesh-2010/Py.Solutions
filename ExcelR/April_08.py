@@ -85,10 +85,10 @@ L7= [1,2,3,4,5,10,12,14,18,200]
 
 # 5. sort a list in ascending and decsing order without using a sort()
 
-L8= [10000,2000,2,3,4,5,10,12,14,18,200]
-for i in L8:
-    print(i)
-print(L8)
+# L8= [10000,2000,2,3,4,5,10,12,14,18,200]
+# for i in L8:
+#     print(i)
+# print(L8)
 
 
 
