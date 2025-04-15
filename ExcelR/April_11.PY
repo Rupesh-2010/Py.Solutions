@@ -29,7 +29,7 @@ T4 = ("Rupesh", 'Shub', 1,2,3,4)
 # print(T4)
 
 
-"""___________Metods"""
+"""___________Metods__________________________"""
 T5 = ("R", "U", "P","S", 1,2,3)
 # print(T5.count(1)) #REturn how many times, the 1 is appers in tuple.
 # T6 = list(T5) #converting tuple to list
@@ -58,11 +58,25 @@ D1 ={
 # print(D1)
 
 D2 = {} #empty Dict
+
 # print(type(D2))
 
+# print(D1.keys())  #Give the key only.
+
+# print(D1.values()) #Give the value only.
+
+Az = D2.update({"Marks": 33})
+# print(D2)
 
 
+D3 = {
+    "One" : 1,
+    "Two" : 2,
+    "Three" : 3
+}
 
-
+i = D3.popitem()  #
+print(i)
+# print(D3)
 
 

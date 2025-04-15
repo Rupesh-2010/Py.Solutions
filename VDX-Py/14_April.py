@@ -56,16 +56,14 @@ An appropriate label should be displayed before each list of values."""
 #     Num = input("Enter Num: ")
 #     if Num == "":
 #         break
-#     L3.append(float(Num))  # convert input to float and add to list
+#     L3.append(float(Num))
 
-# # Step 2: Display the list
 # print(f"The List is {L3}")
 
-# Step 3: Calculate average
+
 # avg = sum(L3) / len(L3)
 # print(f"Average: {avg}")
 
-# # Step 4: Categorize values
 # below_avg = []
 # equal_avg = []
 # above_avg = []
@@ -78,7 +76,6 @@ An appropriate label should be displayed before each list of values."""
 #     else:
 #         above_avg.append(i)
 
-# # Step 5: Display results
 # print("Below average values:", below_avg)
 # print("Average values:", equal_avg)
 # print("Above average values:", above_avg)
@@ -96,33 +93,30 @@ then your program should output the values -4, -1, -2, 0, 0, 3, and 1. Your prog
 should display each value on its own line."""
 
 
-# Step 1: Create empty lists to store the numbers
-# negative = []
-# zero = []
-# positive = []
+L4 = []
 
-# Step 2: Take inputs until a blank line is entered
-# while True:
-#     user_input = input("Enter an integer (or press Enter to stop): ")
-#     if user_input == "":
-#         break
-#     num = int(user_input)
+while True:
+    Num = input("Enter Num: ")
+    if Num == "":
+        break
+    Num = int(Num)
+    L4.append(Num)
+print(f"The List is {L4} ")
 
-    # Step 3: Classify the number
-#     if num < 0:
-#         negative.append(num)
-#     elif num == 0:
-#         zero.append(num)
-#     else:
-#         positive.append(num)
+Negative_Num =[]
+Zero_Num =[]
+Positive_Num =[]
 
-# # Step 4: Print results
-# for n in negative:
-#     print(n)
-# for z in zero:
-#     print(z)
-# for p in positive:
-#     print(p)
+for i in L4:
+    if (i<0):
+        Negative_Num.append(i)
+    elif (i==0):
+        Zero_Num.append(i)
+    else:
+        Positive_Num.append(i)
 
+print(f"The Negative Num List is: {Negative_Num}")
+print(f"The Zero Num List is: {Zero_Num}")
+print(f"The Positive Num List is: {Positive_Num}")
 
 """__________________________________________________"""
