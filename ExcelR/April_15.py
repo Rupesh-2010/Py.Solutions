@@ -36,25 +36,3 @@ S2 = {1,2,3,4,5}
 #clear()
 # S2.clear() #clear/empty the set.
 # print(S2)
-
-
-
-
-"""_________________________________Conditions_________________________________
-if
-if-else
-elif ladder
-
-"""
-
-# A = int(input("Enter the Num: "))
-
-# if A%2==0 and A % 3==0:
-#     print("Hii")
-# else:
-#     print("Good Night.")
-
-#############
-
-
-
