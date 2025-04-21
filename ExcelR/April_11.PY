@@ -76,7 +76,7 @@ D3 = {
 }
 
 i = D3.popitem()  #
-print(i)
+# print(i)
 # print(D3)
 
 

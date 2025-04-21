@@ -120,3 +120,26 @@ print(f"The Zero Num List is: {Zero_Num}")
 print(f"The Positive Num List is: {Positive_Num}")
 
 """__________________________________________________"""
+
+months = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+]
+
+# 2D list to store temperatures for each month
+temperatures = []
+
+# Input temperatures for each month
+for month in months:
+    print(f"\nEnter temperatures for {month} (separated by spaces):")
+    temps = list(map(float, input().split()))
+    temperatures.append(temps)
+
+# Display max and min temperatures for each month
+print("\nHighest and Lowest Temperatures of Each Month:")
+for i in range(12):
+    month_temps = temperatures[i]
+    if month_temps:
+        print(f"{months[i]}: Max = {max(month_temps)}°C, Min = {min(month_temps)}°C")
+    else:
+        print(f"{months[i]}: No temperatures entered.")

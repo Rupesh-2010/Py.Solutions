@@ -3,17 +3,17 @@
 APRIL
 3 Intro- Py
 4 Veriable, DataTypes, Oprators
-5 saturday
-6 Sunday
+5 ❌
+6 ❌
 7 bitwise-right, Left oprs
 8 Pre/Non DT- List
-9 cancel
-10 cancel
+9 ❌
+10 ❌
 11 Tuple, Dictionary
-12 cancel
-13 cancel
-14 
-15 
+12 ❌
+13 ❌
+14 String 
+15 Sets
 16 
 17 
 18 

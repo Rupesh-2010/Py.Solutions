@@ -39,7 +39,7 @@ L= []
 while (A<11):
     if (A + A):
         A += 1
-    print(A)
+    # print(A)
 
 
 

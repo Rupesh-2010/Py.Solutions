@@ -4,8 +4,8 @@
 10 Formated method,  datetime Module, random Module, ASCII Value
 11 if, else, Looping, ASCII Value
 14 Patterns,  DS-> List
-16 
-17
+16 2D List Prb
+17 Dict
 
 
 
