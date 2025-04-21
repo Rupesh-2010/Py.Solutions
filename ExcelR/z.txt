@@ -13,7 +13,7 @@ APRIL
 12 ❌
 13 ❌
 14 String 
-15 Sets
+15 Sets,  Conditions(if, if-else, elif ladder)
 16 
 17 
 18 

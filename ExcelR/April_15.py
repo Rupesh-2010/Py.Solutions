@@ -13,7 +13,7 @@ S1 = {1,2,3,4,5}
 # print(type(S1))
 
 S2 = {1,1,2,2,3,3,4,4,5,5,100}    #No Repitation is Allowed.
-print(S2)
+# print(S2)
 
 s1 ={1,1,2,2,3,3,4,4,5,5,6,7}
 # print(type(s1))
@@ -36,3 +36,25 @@ S2 = {1,2,3,4,5}
 #clear()
 # S2.clear() #clear/empty the set.
 # print(S2)
+
+
+
+
+"""_________________________________Conditions_________________________________
+if
+if-else
+elif ladder
+
+"""
+
+# A = int(input("Enter the Num: "))
+
+# if A%2==0 and A % 3==0:
+#     print("Hii")
+# else:
+#     print("Good Night.")
+
+#############
+
+
+
