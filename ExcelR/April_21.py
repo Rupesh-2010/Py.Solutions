@@ -71,14 +71,22 @@ it is a process of definding somting in terms of itself.
 
 """
 
-def factorial(x):
-    if x ==1:
-        return 1
-    else:
-        return(x*factorial(x-1))
+# def factorial(x):
+#     if x ==1:
+#         return 1
+#     else:
+#         return(x*factorial(x-1))
     
-num = int(input("Enter Num: "))
-print(f"The facorial of num is {num} is {factorial(num)}")
+# num = int(input("Enter Num: "))
+# print(f"The facorial of num is {num} is {factorial(num)}")
+
+
+"""__________________________________________ """
+
+
+
+
+
 
 
 
