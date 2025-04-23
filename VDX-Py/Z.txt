@@ -7,9 +7,9 @@
 16 2D List Prb
 17 Dict
 21 Tuple, Set
-22 function
-23
-24
+22 function, keywords argument, vertiable argument
+23 lambda function,  map function, call back function
+24 
 
 
 

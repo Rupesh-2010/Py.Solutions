@@ -10,8 +10,8 @@ APRIL
 15 Sets
 16 Conditions(if, if-else, elif ladder)  AND  Loops (For)
 17 Range function, Break and Continue. While Loop
-18 function, lambda Fun()
-21 
+18 function, 
+21 lambda Fun(), Map
 22 
 23 
 24 

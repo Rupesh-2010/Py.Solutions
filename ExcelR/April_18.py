@@ -12,6 +12,7 @@ def ---> Keyword
 function_name() ----> name of the function.
 
 """
+
 #Method 1
 
 # def Msg():
